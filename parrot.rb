@@ -1,6 +1,6 @@
 require 'pry'
 def parrot(phrase="Squawk!")
-puts "Pretty bird"
+puts "#{phrase}"
 end
 parrot("Pretty bird!")
 
