@@ -1,6 +1,6 @@
 require 'pry'
 def parrot(phrase="Squawk!")
-parrot = puts "#{phrase}"
+puts "#{phrase}"
 binding.pry
 end
 parrot("Pretty bird!")
