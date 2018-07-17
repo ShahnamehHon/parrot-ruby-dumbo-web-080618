@@ -1,7 +1,6 @@
 require 'pry'
 def parrot(phrase="Squawk!")
 "#{phrase}"
-binding.pry
 end
 parrot("Pretty bird!")
 
